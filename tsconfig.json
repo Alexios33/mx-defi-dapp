@@ -21,7 +21,28 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
-    "baseUrl": "src"
+    "baseUrl": "src",
+    "paths": {
+      "components/*": ["components/*"],
+      "config/*": ["config/*"],
+      "localConstants/*": ["localConstants/*"],
+      "pages/*": ["pages/*"],
+      "routes/*": ["routes/*"],
+      "wrappers/*": ["wrappers/*"],
+      "types/*": ["types/*"],
+      "hooks/*": ["hooks/*"],
+      "hooks/sdkDappHooks/*": ["hooks/sdkDappHooks/*"],
+      "utils/*": ["utils/*"],
+      "utils/getCallbackRoute": ["utils/getCallbackRoute"],
+      "utils/sdkDappUtils/*": ["utils/sdkDappUtils/*"],
+      "utils/sdkDappCore/*": ["utils/sdkDappCore/*"],
+      "utils/smartContract/*": ["utils/smartContract/*"],
+      "assets/*": ["assets/*"],
+      "helpers/*": ["helpers/*"],
+      "helpers/sdkDappHelpers/*": ["helpers/sdkDappHelpers/*"],
+      "services/*": ["services/*"],
+      "services/sdkDappServices/*": ["services/sdkDappServices/*"]
+    }
   },
   "include": ["src"]
 }
